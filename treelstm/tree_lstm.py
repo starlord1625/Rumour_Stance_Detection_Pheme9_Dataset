@@ -43,8 +43,7 @@ class TreeLSTM(torch.nn.Module):
 				torch.nn.init.zeros_(p.data)
 
 
-	def forward(self, features, node_order, adjacency_list, edge_order, root_node, 
-	):
+	def forward(self, features, node_order, adjacency_list, edge_order, root_node, root_label):
 		'''Run TreeLSTM model on a tree data structure with node features
 
 		Takes Tensors encoding node features, a tree node adjacency_list, and the order in which 

@@ -18,7 +18,7 @@ torch.manual_seed(seed_val)
 torch.cuda.manual_seed_all(seed_val)
 
 
-tree_path = 'C:\\Users\\Harshavardhan\\IR-term-project\\paper-1\\Verified-Summarization-master_TreeLSTM\\Parsed-Trees\\'
+tree_path = 'C:\\Users\\Harshavardhan\\IR-term-project\\paper-1\\GITHUB_REPO\\Parsed-Trees\\'
 
 test_set = ['charliehebdo-all-rnr-threads.txt']
 
