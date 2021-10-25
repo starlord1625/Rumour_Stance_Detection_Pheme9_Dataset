@@ -1,16 +1,12 @@
 # Verified Summarization
 
-If this code is helpful in your research, please cite the following publication
-
-> Ashish Sharma, Koustav Rudra, and Niloy Ganguly. "Going Beyond Content Richness: Verified Information Aware Summarization of Crisis-Related Microblogs." Proceedings of the 28th ACM International Conference on Information and Knowledge Management. ACM CIKM, 2019.
-
-
 ## Initial Steps
-
+- use path according to the system on which the program runs
 ### Dataset
 
 - We use the dataset created by Zubiaga et al, 2017 which can be downloaded from [here](https://figshare.com/articles/PHEME_dataset_of_rumours_and_non-rumours/4010619). 
 
+- stance.json:- Json file contains the stance labels of the sub-set of tweets
 
 Edit:  Dataset can be downloaded from: 
 
@@ -134,6 +130,7 @@ Configure the following input variables inside the code:
 - **datapath**: The original dataset folder (download from [here](https://figshare.com/articles/PHEME_dataset_of_rumours_and_non-rumours/4010619)) 
 - **feature_path**: File containing input feature vectors for all tweets in the dataset. The file contains two tab-separated columns - tweet_id, features
 - **output_path**: Path of the folder where you want the generated trees to be stored
+- **stance_path**: Path of the json file consisting of stance labels
 
 Each tree is stored as a dictionary. A sample tree and the corresponding stored dictionary is shown below:
 
@@ -141,16 +138,16 @@ Each tree is stored as a dictionary. A sample tree and the corresponding stored 
 
 ```
 tree = {
-        'f': [0.234, .... , ], 'l': [0, 1], 'c': [
-            {'f': [0.109, ... , ], 'l': [0, 1], 'c': []},
-            {'f': [0.712, ... , ], 'l': [0, 1], 'c': [
-                {'f': [0.352, ... , ], 'l': [0, 1], 'c': []}
+        'f': [0.234, .... , ], 'l': [0, 1], 'stance':[0,0,0,0], 'c': [
+            {'f': [0.109, ... , ], 'l': [0, 1], 'stance':[1,0,0,0], 'c': []},
+            {'f': [0.712, ... , ], 'l': [0, 1], 'stance':[0,0,1,0], 'c': [
+                {'f': [0.352, ... , ], 'l': [0, 1], 'stance':[0,1,0,0], 'c': []}
             ]},
         ],
     }
 ```
 
-Here, f is the input feature vector for each node of the tree, l is the true label of the root of the tree stored as a 2-dimensional one-hot vector (dim-1: verified, dim-2: unverified), and c is the list of children of a node. 
+Here, f is the input feature vector for each node of the tree, l is the true label of the root of the tree stored as a 2-dimensional one-hot vector (dim-1: verified, dim-2: unverified), and c is the list of children of a node. and stance is the one-hot encode of stance-label:= [0, 0, 0, 0,]:- No stance ; [1, 0, 0, 0]:-comment ; [0, 1, 0, 0]:-deny ; [0, 0, 1, 0]:-support ; [0, 0, 0, 1]:-query
 
 ### Training and Testing Tree-LSTM
 
