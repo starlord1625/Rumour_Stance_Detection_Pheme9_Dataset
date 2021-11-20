@@ -48,6 +48,7 @@ def convert_tree_to_tensors(tree, device=torch.device('cpu')):
 
 	features = _gather_node_attributes(tree, 'f')
 	labels = _gather_node_attributes(tree, 'l')
+	stance_labels = _gather_node_attributes(tree, 'stance')
 
 	root_label = labels[0]
 
@@ -55,13 +56,20 @@ def convert_tree_to_tensors(tree, device=torch.device('cpu')):
 
 	adjacency_list = _gather_adjacency_list(tree)
 
+	# print(stance_labels)
+	# print(labels)
+	# print(adjacency_list)
+    
 	node_order, edge_order = calculate_evaluation_orders(adjacency_list, len(features))
 
 	root_node = [0]
+	# print(node_order)
+	# print(edge_order)
 
 	return {
 		'f': torch.tensor(features, device=device, dtype=torch.float32),
 		'l': torch.tensor(labels, device=device, dtype=torch.float32),
+		'stance': torch.tensor(stance_labels, device=device, dtype=torch.float32),
 		'root_l': torch.tensor(root_label, device=device, dtype=torch.long),
 		'root_n': torch.tensor(root_node, device=device, dtype=torch.int64),
 		'node_order': torch.tensor(node_order, device=device, dtype=torch.int64),
@@ -136,6 +144,8 @@ def batch_tree_input(batch):
 
     batched_root_labels = torch.tensor([b['root_l'] for b in batch])
 
+    batched_stance_labels = torch.cat([b['stance'] for b in batch])
+
     batched_adjacency_list = []
     offset = 0
     for n, b in zip(tree_sizes, batch):
@@ -151,7 +161,8 @@ def batch_tree_input(batch):
         'tree_sizes': tree_sizes,
         'root_node': batched_root,
         'root_label': batched_root_labels,
-        'l': batched_labels
+        'l': batched_labels,
+        'stance': batched_stance_labels
     }
 
 

@@ -13,19 +13,19 @@ datapath = "C:\\Users\\Harshavardhan\\IR-term-project\\paper-1\\Verified-Summari
 
 feature_path = "C:\\Users\\Harshavardhan\\IR-term-project\\paper-1\\Verified-Summarization-master_TreeLSTM\\CTP\\output_30_10_1000\\tweet-posteriors.txt"
 
-output_path = "C:\\Users\\Harshavardhan\\IR-term-project\\paper-1\\Verified-Summarization-master_TreeLSTM\\Parsed-Trees\\"
+output_path = "C:\\Users\\Harshavardhan\\IR-term-project\\paper-1\\Verified-Summarization-master_TreeLSTM\\Parsed-Trees_3\\"
 
 stance_path = "C:\\Users\\Harshavardhan\\IR-term-project\\paper-1\\Verified-Summarization-master_TreeLSTM\\all-rnr-annotated-threads\\stance.json"
 
-no_stance = [0,0,0,0]
+no_stance = 0
 
-comment = [1,0,0,0]
+comment = 1
 
-deny = [0,1,0,0]
+deny = 2
 
-support = [0,0,1,0]
+support = 3
 
-query = [0,0,0,1]
+query = 4
 
 
 import numpy
@@ -239,12 +239,8 @@ def main():
 
 			dict_label[tweet_id] = 'r'
 			LABELS[tweet_id] = 1
+			STANCE_LABELS[tweet_id] = no_stance
 
-			if tweet_id not in stance_dict:
-				STANCE_LABELS[tweet_id] = no_stance
-				
-			else:
-				STANCE_LABELS[tweet_id] = switcher.get(stance_dict[tweet_id])
 			# print(dict_r[tweet_id])
 			# exit(-1)
 
@@ -322,11 +318,7 @@ def main():
 			dict_label[tweet_id] = 'nr'
 			LABELS[tweet_id] = 0
 
-			if tweet_id not in stance_dict:
-				STANCE_LABELS[tweet_id] = no_stance
-				
-			else:
-				STANCE_LABELS[tweet_id] = switcher.get(stance_dict[tweet_id])
+			STANCE_LABELS[tweet_id] = no_stance
 
 		curr_tree = {}
 

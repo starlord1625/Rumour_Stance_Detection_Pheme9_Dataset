@@ -1,0 +1,1061 @@
+Training Set:{'prince-toronto-all-rnr-threads.txt', 'germanwings-crash-all-rnr-threads.txt', 'sydneysiege-all-rnr-threads.txt', 'ebola-essien-all-rnr-threads.txt', 'putinmissing-all-rnr-threads.txt', 'ottawashooting-all-rnr-threads.txt', 'ferguson-all-rnr-threads.txt', 'gurlitt-all-rnr-threads.txt'}
+Training Set:{'ferguson-all-rnr-threads.txt', 'sydneysiege-all-rnr-threads.txt', 'prince-toronto-all-rnr-threads.txt', 'ebola-essien-all-rnr-threads.txt', 'putinmissing-all-rnr-threads.txt', 'ottawashooting-all-rnr-threads.txt', 'gurlitt-all-rnr-threads.txt', 'germanwings-crash-all-rnr-threads.txt'}
+count:2418,281,360,483
+weights:[0.04688702933654714, 0.40346205315220995, 0.3149245470438083, 0.23472637046743478]
+Iteration 1 Loss: 141.4277801513672
+Iteration 2 Loss: 136.2486572265625
+Iteration 3 Loss: 138.26268005371094
+Iteration 4 Loss: 135.4110107421875
+Iteration 5 Loss: 133.53846740722656
+Iteration 6 Loss: 140.4368896484375
+Iteration 7 Loss: 138.77537536621094
+Iteration 8 Loss: 139.14292907714844
+Iteration 9 Loss: 137.67138671875
+Iteration 10 Loss: 135.72689819335938
+Iteration 11 Loss: 137.20188903808594
+Iteration 12 Loss: 133.7587432861328
+Iteration 13 Loss: 133.76963806152344
+Iteration 14 Loss: 134.53060913085938
+Iteration 15 Loss: 136.15908813476562
+Iteration 16 Loss: 136.48928833007812
+Iteration 17 Loss: 134.77597045898438
+Iteration 18 Loss: 130.14584350585938
+Iteration 19 Loss: 134.96713256835938
+Iteration 20 Loss: 135.84034729003906
+Iteration 21 Loss: 128.49960327148438
+Iteration 22 Loss: 130.36102294921875
+Iteration 23 Loss: 133.20616149902344
+Iteration 24 Loss: 129.19322204589844
+Iteration 25 Loss: 129.98214721679688
+Iteration 26 Loss: 126.29608154296875
+Iteration 27 Loss: 127.25435638427734
+Iteration 28 Loss: 129.45223999023438
+Iteration 29 Loss: 129.12818908691406
+Iteration 30 Loss: 132.01512145996094
+Iteration 31 Loss: 129.32920837402344
+Iteration 32 Loss: 125.93742370605469
+Iteration 33 Loss: 135.1434326171875
+Iteration 34 Loss: 133.3270721435547
+Iteration 35 Loss: 129.04998779296875
+Iteration 36 Loss: 130.73028564453125
+Iteration 37 Loss: 134.12721252441406
+Iteration 38 Loss: 129.98875427246094
+Iteration 39 Loss: 129.34300231933594
+Iteration 40 Loss: 129.26036071777344
+Iteration 41 Loss: 129.26077270507812
+Iteration 42 Loss: 130.30694580078125
+Iteration 43 Loss: 125.68997955322266
+Iteration 44 Loss: 129.93858337402344
+Iteration 45 Loss: 126.10704803466797
+Iteration 46 Loss: 126.73941040039062
+Iteration 47 Loss: 127.15850830078125
+Iteration 48 Loss: 126.62319946289062
+Iteration 49 Loss: 125.169677734375
+Iteration 50 Loss: 122.21368408203125
+Iteration 51 Loss: 131.60243225097656
+Iteration 52 Loss: 129.31858825683594
+Iteration 53 Loss: 127.54052734375
+Iteration 54 Loss: 130.73837280273438
+Iteration 55 Loss: 124.48750305175781
+Iteration 56 Loss: 127.11052703857422
+Iteration 57 Loss: 128.6714630126953
+Iteration 58 Loss: 126.19999694824219
+Iteration 59 Loss: 131.9041748046875
+Iteration 60 Loss: 126.90375518798828
+Iteration 61 Loss: 126.76498413085938
+Iteration 62 Loss: 130.69406127929688
+Iteration 63 Loss: 128.9644012451172
+Iteration 64 Loss: 129.85716247558594
+Iteration 65 Loss: 136.19956970214844
+Iteration 66 Loss: 135.94081115722656
+Iteration 67 Loss: 131.6275177001953
+Iteration 68 Loss: 126.7774887084961
+Iteration 69 Loss: 127.88102722167969
+Iteration 70 Loss: 126.65927124023438
+Iteration 71 Loss: 126.65987396240234
+Iteration 72 Loss: 125.05596160888672
+Iteration 73 Loss: 123.77085876464844
+Iteration 74 Loss: 126.94700622558594
+Iteration 75 Loss: 127.02622985839844
+Iteration 76 Loss: 124.55921173095703
+Iteration 77 Loss: 125.851806640625
+Iteration 78 Loss: 129.846923828125
+Iteration 79 Loss: 127.17916107177734
+Iteration 80 Loss: 128.20115661621094
+Iteration 81 Loss: 124.31719207763672
+Iteration 82 Loss: 128.82553100585938
+Iteration 83 Loss: 126.13703155517578
+Iteration 84 Loss: 127.16669464111328
+Iteration 85 Loss: 120.47749328613281
+Iteration 86 Loss: 123.91976165771484
+Iteration 87 Loss: 127.4993896484375
+Iteration 88 Loss: 126.72631072998047
+Iteration 89 Loss: 124.67240142822266
+Iteration 90 Loss: 123.78643035888672
+Iteration 91 Loss: 124.37342834472656
+Iteration 92 Loss: 124.78632354736328
+Iteration 93 Loss: 127.00555419921875
+Iteration 94 Loss: 121.25788879394531
+Iteration 95 Loss: 120.88905334472656
+Iteration 96 Loss: 122.96329498291016
+Iteration 97 Loss: 123.46553802490234
+Iteration 98 Loss: 122.21153259277344
+Iteration 99 Loss: 125.84859466552734
+Iteration 100 Loss: 122.5582504272461
+Training Complete
+Now Testing:charliehebdo-all-rnr-threads.txt
+
+Report for Rumour classification:-
+charliehebdo-all-rnr-threads.txt accuracy:0.7617853560682046
+charliehebdo-all-rnr-threads.txt macro_f1:0.5833060200764537
+charliehebdo-all-rnr-threads.txt total tested:1994
+
+Report for Stance classification:-
+correctly classified Stance labels:333
+Total available Stance labels:1065
+correctly classified Stance labels for each class:214,16,43,60
+charliehebdo-all-rnr-threads.txt accuracy_stance:0.3126760563380282
+charliehebdo-all-rnr-threads.txt macro_stance_f1:0.27069410865768995
+
+Training Set:{'ferguson-all-rnr-threads.txt', 'charliehebdo-all-rnr-threads.txt', 'sydneysiege-all-rnr-threads.txt', 'prince-toronto-all-rnr-threads.txt', 'putinmissing-all-rnr-threads.txt', 'ottawashooting-all-rnr-threads.txt', 'gurlitt-all-rnr-threads.txt', 'germanwings-crash-all-rnr-threads.txt'}
+count:3172,330,420,653
+weights:[0.043436556935197775, 0.41751745029832527, 0.3280494252343984, 0.21099656753207863]
+Iteration 1 Loss: 197.8999481201172
+Iteration 2 Loss: 199.1260986328125
+Iteration 3 Loss: 191.29940795898438
+Iteration 4 Loss: 195.72596740722656
+Iteration 5 Loss: 194.62408447265625
+Iteration 6 Loss: 197.47714233398438
+Iteration 7 Loss: 196.3726348876953
+Iteration 8 Loss: 199.087890625
+Iteration 9 Loss: 194.17669677734375
+Iteration 10 Loss: 188.9220733642578
+Iteration 11 Loss: 189.03857421875
+Iteration 12 Loss: 188.48126220703125
+Iteration 13 Loss: 197.9180450439453
+Iteration 14 Loss: 196.8607177734375
+Iteration 15 Loss: 197.58978271484375
+Iteration 16 Loss: 189.2325439453125
+Iteration 17 Loss: 188.47171020507812
+Iteration 18 Loss: 193.39930725097656
+Iteration 19 Loss: 191.8207244873047
+Iteration 20 Loss: 191.86712646484375
+Iteration 21 Loss: 191.90463256835938
+Iteration 22 Loss: 197.11282348632812
+Iteration 23 Loss: 191.6082305908203
+Iteration 24 Loss: 182.21051025390625
+Iteration 25 Loss: 190.6088104248047
+Iteration 26 Loss: 187.47752380371094
+Iteration 27 Loss: 184.42539978027344
+Iteration 28 Loss: 186.8933868408203
+Iteration 29 Loss: 189.37197875976562
+Iteration 30 Loss: 193.25384521484375
+Iteration 31 Loss: 189.65354919433594
+Iteration 32 Loss: 188.45770263671875
+Iteration 33 Loss: 184.66998291015625
+Iteration 34 Loss: 187.96929931640625
+Iteration 35 Loss: 186.60133361816406
+Iteration 36 Loss: 186.8020782470703
+Iteration 37 Loss: 194.0909881591797
+Iteration 38 Loss: 197.2403564453125
+Iteration 39 Loss: 189.32814025878906
+Iteration 40 Loss: 190.1857452392578
+Iteration 41 Loss: 186.2996826171875
+Iteration 42 Loss: 188.2517547607422
+Iteration 43 Loss: 183.52418518066406
+Iteration 44 Loss: 184.76107788085938
+Iteration 45 Loss: 180.97879028320312
+Iteration 46 Loss: 185.1044464111328
+Iteration 47 Loss: 177.2889404296875
+Iteration 48 Loss: 181.16880798339844
+Iteration 49 Loss: 179.40457153320312
+Iteration 50 Loss: 182.10848999023438
+Iteration 51 Loss: 180.50033569335938
+Iteration 52 Loss: 183.6282958984375
+Iteration 53 Loss: 180.30502319335938
+Iteration 54 Loss: 182.28982543945312
+Iteration 55 Loss: 186.6503448486328
+Iteration 56 Loss: 184.58871459960938
+Iteration 57 Loss: 181.87498474121094
+Iteration 58 Loss: 178.714111328125
+Iteration 59 Loss: 186.24188232421875
+Iteration 60 Loss: 180.2391815185547
+Iteration 61 Loss: 179.88966369628906
+Iteration 62 Loss: 183.6976318359375
+Iteration 63 Loss: 188.5229949951172
+Iteration 64 Loss: 187.52403259277344
+Iteration 65 Loss: 183.60659790039062
+Iteration 66 Loss: 185.3648681640625
+Iteration 67 Loss: 183.5738983154297
+Iteration 68 Loss: 183.3479766845703
+Iteration 69 Loss: 186.04527282714844
+Iteration 70 Loss: 181.31295776367188
+Iteration 71 Loss: 183.5781707763672
+Iteration 72 Loss: 182.7753143310547
+Iteration 73 Loss: 182.0630645751953
+Iteration 74 Loss: 175.74290466308594
+Iteration 75 Loss: 184.14561462402344
+Iteration 76 Loss: 187.00074768066406
+Iteration 77 Loss: 186.40451049804688
+Iteration 78 Loss: 185.18634033203125
+Iteration 79 Loss: 176.88320922851562
+Iteration 80 Loss: 175.84950256347656
+Iteration 81 Loss: 182.0454864501953
+Iteration 82 Loss: 181.1787109375
+Iteration 83 Loss: 181.56597900390625
+Iteration 84 Loss: 180.0455322265625
+Iteration 85 Loss: 185.9664306640625
+Iteration 86 Loss: 182.0383758544922
+Iteration 87 Loss: 179.57008361816406
+Iteration 88 Loss: 182.2869415283203
+Iteration 89 Loss: 173.1077117919922
+Iteration 90 Loss: 173.81349182128906
+Iteration 91 Loss: 182.3473358154297
+Iteration 92 Loss: 177.8785400390625
+Iteration 93 Loss: 187.55810546875
+Iteration 94 Loss: 180.60044860839844
+Iteration 95 Loss: 181.14053344726562
+Iteration 96 Loss: 187.1634063720703
+Iteration 97 Loss: 181.3810272216797
+Iteration 98 Loss: 183.29470825195312
+Iteration 99 Loss: 183.02598571777344
+Iteration 100 Loss: 177.91848754882812
+Training Complete
+Now Testing:ebola-essien-all-rnr-threads.txt
+
+Report for Rumour classification:-
+ebola-essien-all-rnr-threads.txt accuracy:0.42857142857142855
+ebola-essien-all-rnr-threads.txt macro_f1:0.3
+ebola-essien-all-rnr-threads.txt total tested:14
+
+Report for Stance classification:-
+correctly classified Stance labels:7
+Total available Stance labels:32
+correctly classified Stance labels for each class:4,0,1,2
+ebola-essien-all-rnr-threads.txt accuracy_stance:0.21875
+ebola-essien-all-rnr-threads.txt macro_stance_f1:0.18356374807987713
+
+Training Set:{'ferguson-all-rnr-threads.txt', 'charliehebdo-all-rnr-threads.txt', 'sydneysiege-all-rnr-threads.txt', 'prince-toronto-all-rnr-threads.txt', 'ebola-essien-all-rnr-threads.txt', 'putinmissing-all-rnr-threads.txt', 'ottawashooting-all-rnr-threads.txt', 'gurlitt-all-rnr-threads.txt'}
+count:2965,322,378,605
+weights:[0.043567638318038865, 0.40117406090989205, 0.34174086670101916, 0.21351743407104998]
+Iteration 1 Loss: 179.156494140625
+Iteration 2 Loss: 181.78041076660156
+Iteration 3 Loss: 178.95864868164062
+Iteration 4 Loss: 180.13670349121094
+Iteration 5 Loss: 180.19805908203125
+Iteration 6 Loss: 180.20928955078125
+Iteration 7 Loss: 182.87083435058594
+Iteration 8 Loss: 179.26820373535156
+Iteration 9 Loss: 182.96334838867188
+Iteration 10 Loss: 181.35671997070312
+Iteration 11 Loss: 180.8057403564453
+Iteration 12 Loss: 181.23944091796875
+Iteration 13 Loss: 186.55438232421875
+Iteration 14 Loss: 181.40560913085938
+Iteration 15 Loss: 178.85316467285156
+Iteration 16 Loss: 182.93963623046875
+Iteration 17 Loss: 183.58050537109375
+Iteration 18 Loss: 173.84474182128906
+Iteration 19 Loss: 176.2841796875
+Iteration 20 Loss: 181.71133422851562
+Iteration 21 Loss: 174.27500915527344
+Iteration 22 Loss: 171.73265075683594
+Iteration 23 Loss: 174.49893188476562
+Iteration 24 Loss: 177.1866912841797
+Iteration 25 Loss: 175.7102508544922
+Iteration 26 Loss: 182.8903350830078
+Iteration 27 Loss: 174.1005859375
+Iteration 28 Loss: 179.3408203125
+Iteration 29 Loss: 176.55374145507812
+Iteration 30 Loss: 179.91712951660156
+Iteration 31 Loss: 167.42843627929688
+Iteration 32 Loss: 175.91163635253906
+Iteration 33 Loss: 179.46324157714844
+Iteration 34 Loss: 183.0618133544922
+Iteration 35 Loss: 179.1353302001953
+Iteration 36 Loss: 177.37550354003906
+Iteration 37 Loss: 174.08241271972656
+Iteration 38 Loss: 173.33433532714844
+Iteration 39 Loss: 168.6754913330078
+Iteration 40 Loss: 168.82858276367188
+Iteration 41 Loss: 166.24009704589844
+Iteration 42 Loss: 171.50564575195312
+Iteration 43 Loss: 172.93978881835938
+Iteration 44 Loss: 170.12216186523438
+Iteration 45 Loss: 166.00631713867188
+Iteration 46 Loss: 168.81198120117188
+Iteration 47 Loss: 170.2642059326172
+Iteration 48 Loss: 171.83450317382812
+Iteration 49 Loss: 176.56411743164062
+Iteration 50 Loss: 168.192138671875
+Iteration 51 Loss: 170.76953125
+Iteration 52 Loss: 166.50856018066406
+Iteration 53 Loss: 168.76126098632812
+Iteration 54 Loss: 169.65333557128906
+Iteration 55 Loss: 168.5933837890625
+Iteration 56 Loss: 165.7193603515625
+Iteration 57 Loss: 167.63975524902344
+Iteration 58 Loss: 169.5194091796875
+Iteration 59 Loss: 170.85809326171875
+Iteration 60 Loss: 167.14230346679688
+Iteration 61 Loss: 167.70489501953125
+Iteration 62 Loss: 163.52670288085938
+Iteration 63 Loss: 164.1282196044922
+Iteration 64 Loss: 168.24429321289062
+Iteration 65 Loss: 166.3146514892578
+Iteration 66 Loss: 170.0353240966797
+Iteration 67 Loss: 162.2561492919922
+Iteration 68 Loss: 171.34837341308594
+Iteration 69 Loss: 171.78909301757812
+Iteration 70 Loss: 169.1212158203125
+Iteration 71 Loss: 170.97561645507812
+Iteration 72 Loss: 167.0676727294922
+Iteration 73 Loss: 168.40406799316406
+Iteration 74 Loss: 166.65847778320312
+Iteration 75 Loss: 166.2309112548828
+Iteration 76 Loss: 168.3442840576172
+Iteration 77 Loss: 167.62721252441406
+Iteration 78 Loss: 164.43621826171875
+Iteration 79 Loss: 167.26760864257812
+Iteration 80 Loss: 170.22000122070312
+Iteration 81 Loss: 167.9516143798828
+Iteration 82 Loss: 166.18992614746094
+Iteration 83 Loss: 170.55419921875
+Iteration 84 Loss: 168.5684814453125
+Iteration 85 Loss: 168.52407836914062
+Iteration 86 Loss: 166.4002227783203
+Iteration 87 Loss: 168.00015258789062
+Iteration 88 Loss: 164.8622589111328
+Iteration 89 Loss: 169.04623413085938
+Iteration 90 Loss: 166.87550354003906
+Iteration 91 Loss: 160.3461151123047
+Iteration 92 Loss: 160.37669372558594
+Iteration 93 Loss: 165.9415740966797
+Iteration 94 Loss: 162.72906494140625
+Iteration 95 Loss: 163.747802734375
+Iteration 96 Loss: 162.9642333984375
+Iteration 97 Loss: 164.3014373779297
+Iteration 98 Loss: 161.92884826660156
+Iteration 99 Loss: 170.68792724609375
+Iteration 100 Loss: 163.2840576171875
+Training Complete
+Now Testing:germanwings-crash-all-rnr-threads.txt
+
+Report for Rumour classification:-
+germanwings-crash-all-rnr-threads.txt accuracy:0.5310173697270472
+germanwings-crash-all-rnr-threads.txt macro_f1:0.4961600285765315
+germanwings-crash-all-rnr-threads.txt total tested:403
+
+Report for Stance classification:-
+correctly classified Stance labels:134
+Total available Stance labels:337
+correctly classified Stance labels for each class:74,0,25,35
+germanwings-crash-all-rnr-threads.txt accuracy_stance:0.39762611275964393
+germanwings-crash-all-rnr-threads.txt macro_stance_f1:0.3090617474830948
+
+Training Set:{'ferguson-all-rnr-threads.txt', 'charliehebdo-all-rnr-threads.txt', 'prince-toronto-all-rnr-threads.txt', 'ebola-essien-all-rnr-threads.txt', 'putinmissing-all-rnr-threads.txt', 'ottawashooting-all-rnr-threads.txt', 'gurlitt-all-rnr-threads.txt', 'germanwings-crash-all-rnr-threads.txt'}
+count:2433,248,311,505
+weights:[0.042641274247608586, 0.4183315332436762, 0.33358913261875145, 0.20543805988996375]
+Iteration 1 Loss: 155.705810546875
+Iteration 2 Loss: 161.25079345703125
+Iteration 3 Loss: 154.00062561035156
+Iteration 4 Loss: 152.14901733398438
+Iteration 5 Loss: 152.61729431152344
+Iteration 6 Loss: 155.578857421875
+Iteration 7 Loss: 154.4792938232422
+Iteration 8 Loss: 156.65748596191406
+Iteration 9 Loss: 147.0169677734375
+Iteration 10 Loss: 146.74652099609375
+Iteration 11 Loss: 147.27554321289062
+Iteration 12 Loss: 150.5269012451172
+Iteration 13 Loss: 146.19357299804688
+Iteration 14 Loss: 148.26290893554688
+Iteration 15 Loss: 147.06541442871094
+Iteration 16 Loss: 151.73094177246094
+Iteration 17 Loss: 159.49339294433594
+Iteration 18 Loss: 153.82591247558594
+Iteration 19 Loss: 145.90194702148438
+Iteration 20 Loss: 146.29534912109375
+Iteration 21 Loss: 144.43296813964844
+Iteration 22 Loss: 150.5477294921875
+Iteration 23 Loss: 145.99102783203125
+Iteration 24 Loss: 150.16749572753906
+Iteration 25 Loss: 144.82550048828125
+Iteration 26 Loss: 141.55136108398438
+Iteration 27 Loss: 147.66249084472656
+Iteration 28 Loss: 157.51083374023438
+Iteration 29 Loss: 152.82766723632812
+Iteration 30 Loss: 147.8441619873047
+Iteration 31 Loss: 148.41940307617188
+Iteration 32 Loss: 151.64260864257812
+Iteration 33 Loss: 147.11001586914062
+Iteration 34 Loss: 154.80580139160156
+Iteration 35 Loss: 147.36912536621094
+Iteration 36 Loss: 149.23521423339844
+Iteration 37 Loss: 154.5714111328125
+Iteration 38 Loss: 151.36334228515625
+Iteration 39 Loss: 147.09271240234375
+Iteration 40 Loss: 148.38619995117188
+Iteration 41 Loss: 146.2295379638672
+Iteration 42 Loss: 144.02134704589844
+Iteration 43 Loss: 142.55899047851562
+Iteration 44 Loss: 138.62225341796875
+Iteration 45 Loss: 144.6986541748047
+Iteration 46 Loss: 141.1345672607422
+Iteration 47 Loss: 142.17909240722656
+Iteration 48 Loss: 150.54502868652344
+Iteration 49 Loss: 144.0258026123047
+Iteration 50 Loss: 145.95382690429688
+Iteration 51 Loss: 146.35739135742188
+Iteration 52 Loss: 138.79043579101562
+Iteration 53 Loss: 141.68544006347656
+Iteration 54 Loss: 143.34190368652344
+Iteration 55 Loss: 139.8130340576172
+Iteration 56 Loss: 142.6320037841797
+Iteration 57 Loss: 136.66493225097656
+Iteration 58 Loss: 141.209228515625
+Iteration 59 Loss: 141.52784729003906
+Iteration 60 Loss: 140.45689392089844
+Iteration 61 Loss: 143.4375
+Iteration 62 Loss: 147.77767944335938
+Iteration 63 Loss: 145.52825927734375
+Iteration 64 Loss: 143.55577087402344
+Iteration 65 Loss: 144.3459930419922
+Iteration 66 Loss: 143.9817352294922
+Iteration 67 Loss: 142.5196990966797
+Iteration 68 Loss: 141.90036010742188
+Iteration 69 Loss: 143.69630432128906
+Iteration 70 Loss: 148.72216796875
+Iteration 71 Loss: 145.45358276367188
+Iteration 72 Loss: 145.48753356933594
+Iteration 73 Loss: 140.998291015625
+Iteration 74 Loss: 134.46551513671875
+Iteration 75 Loss: 138.16946411132812
+Iteration 76 Loss: 140.1083221435547
+Iteration 77 Loss: 143.2252960205078
+Iteration 78 Loss: 140.35275268554688
+Iteration 79 Loss: 134.53689575195312
+Iteration 80 Loss: 142.78973388671875
+Iteration 81 Loss: 146.47962951660156
+Iteration 82 Loss: 143.61151123046875
+Iteration 83 Loss: 139.9821014404297
+Iteration 84 Loss: 134.68959045410156
+Iteration 85 Loss: 137.43182373046875
+Iteration 86 Loss: 140.05735778808594
+Iteration 87 Loss: 138.60748291015625
+Iteration 88 Loss: 148.42300415039062
+Iteration 89 Loss: 140.08856201171875
+Iteration 90 Loss: 140.5519256591797
+Iteration 91 Loss: 136.6139678955078
+Iteration 92 Loss: 141.26953125
+Iteration 93 Loss: 140.8962860107422
+Iteration 94 Loss: 138.75045776367188
+Iteration 95 Loss: 142.0685272216797
+Iteration 96 Loss: 142.1169891357422
+Iteration 97 Loss: 142.38133239746094
+Iteration 98 Loss: 136.31625366210938
+Iteration 99 Loss: 131.55609130859375
+Iteration 100 Loss: 138.98513793945312
+Training Complete
+Now Testing:sydneysiege-all-rnr-threads.txt
+
+Report for Rumour classification:-
+sydneysiege-all-rnr-threads.txt accuracy:0.5974358974358974
+sydneysiege-all-rnr-threads.txt macro_f1:0.5550788443853804
+sydneysiege-all-rnr-threads.txt total tested:1170
+
+Report for Stance classification:-
+correctly classified Stance labels:393
+Total available Stance labels:1110
+correctly classified Stance labels for each class:237,3,62,91
+sydneysiege-all-rnr-threads.txt accuracy_stance:0.35405405405405405
+sydneysiege-all-rnr-threads.txt macro_stance_f1:0.28624670391762935
+
+Training Set:{'ferguson-all-rnr-threads.txt', 'charliehebdo-all-rnr-threads.txt', 'sydneysiege-all-rnr-threads.txt', 'prince-toronto-all-rnr-threads.txt', 'ebola-essien-all-rnr-threads.txt', 'putinmissing-all-rnr-threads.txt', 'ottawashooting-all-rnr-threads.txt', 'germanwings-crash-all-rnr-threads.txt'}
+count:3193,336,421,657
+weights:[0.043578170856633326, 0.4141223200750899, 0.33051092528558246, 0.21178858378269438]
+Iteration 1 Loss: 194.19676208496094
+Iteration 2 Loss: 193.29444885253906
+Iteration 3 Loss: 198.25709533691406
+Iteration 4 Loss: 197.6602783203125
+Iteration 5 Loss: 195.89312744140625
+Iteration 6 Loss: 190.757080078125
+Iteration 7 Loss: 192.600830078125
+Iteration 8 Loss: 194.89683532714844
+Iteration 9 Loss: 190.22982788085938
+Iteration 10 Loss: 184.52188110351562
+Iteration 11 Loss: 188.11221313476562
+Iteration 12 Loss: 184.73162841796875
+Iteration 13 Loss: 192.4990997314453
+Iteration 14 Loss: 184.7266082763672
+Iteration 15 Loss: 191.97952270507812
+Iteration 16 Loss: 182.9678497314453
+Iteration 17 Loss: 193.62937927246094
+Iteration 18 Loss: 185.034912109375
+Iteration 19 Loss: 183.068603515625
+Iteration 20 Loss: 182.7336883544922
+Iteration 21 Loss: 183.1414794921875
+Iteration 22 Loss: 184.5801239013672
+Iteration 23 Loss: 185.3948516845703
+Iteration 24 Loss: 184.85621643066406
+Iteration 25 Loss: 182.74476623535156
+Iteration 26 Loss: 190.46917724609375
+Iteration 27 Loss: 197.2504425048828
+Iteration 28 Loss: 193.30062866210938
+Iteration 29 Loss: 190.70216369628906
+Iteration 30 Loss: 196.57147216796875
+Iteration 31 Loss: 196.28750610351562
+Iteration 32 Loss: 188.47671508789062
+Iteration 33 Loss: 196.42532348632812
+Iteration 34 Loss: 197.37954711914062
+Iteration 35 Loss: 185.7700653076172
+Iteration 36 Loss: 185.88458251953125
+Iteration 37 Loss: 184.74609375
+Iteration 38 Loss: 186.1172332763672
+Iteration 39 Loss: 182.4691619873047
+Iteration 40 Loss: 176.24427795410156
+Iteration 41 Loss: 182.6393280029297
+Iteration 42 Loss: 182.0204620361328
+Iteration 43 Loss: 187.26312255859375
+Iteration 44 Loss: 179.46250915527344
+Iteration 45 Loss: 187.1018524169922
+Iteration 46 Loss: 181.8379364013672
+Iteration 47 Loss: 181.73974609375
+Iteration 48 Loss: 191.3937530517578
+Iteration 49 Loss: 177.8921661376953
+Iteration 50 Loss: 187.75906372070312
+Iteration 51 Loss: 182.25926208496094
+Iteration 52 Loss: 190.50758361816406
+Iteration 53 Loss: 190.58059692382812
+Iteration 54 Loss: 192.65188598632812
+Iteration 55 Loss: 186.47019958496094
+Iteration 56 Loss: 190.821533203125
+Iteration 57 Loss: 177.07870483398438
+Iteration 58 Loss: 189.7543487548828
+Iteration 59 Loss: 183.3217315673828
+Iteration 60 Loss: 181.6849822998047
+Iteration 61 Loss: 179.42916870117188
+Iteration 62 Loss: 182.86105346679688
+Iteration 63 Loss: 184.2950897216797
+Iteration 64 Loss: 179.45394897460938
+Iteration 65 Loss: 185.2960205078125
+Iteration 66 Loss: 185.38584899902344
+Iteration 67 Loss: 180.48361206054688
+Iteration 68 Loss: 182.2747344970703
+Iteration 69 Loss: 179.57412719726562
+Iteration 70 Loss: 180.02670288085938
+Iteration 71 Loss: 172.37550354003906
+Iteration 72 Loss: 186.86563110351562
+Iteration 73 Loss: 183.43734741210938
+Iteration 74 Loss: 182.7492218017578
+Iteration 75 Loss: 180.60072326660156
+Iteration 76 Loss: 183.695068359375
+Iteration 77 Loss: 177.1424102783203
+Iteration 78 Loss: 172.4507293701172
+Iteration 79 Loss: 179.17263793945312
+Iteration 80 Loss: 184.06509399414062
+Iteration 81 Loss: 181.893310546875
+Iteration 82 Loss: 178.7855682373047
+Iteration 83 Loss: 176.78123474121094
+Iteration 84 Loss: 178.14389038085938
+Iteration 85 Loss: 176.18199157714844
+Iteration 86 Loss: 175.5892333984375
+Iteration 87 Loss: 183.6404266357422
+Iteration 88 Loss: 181.07847595214844
+Iteration 89 Loss: 174.93954467773438
+Iteration 90 Loss: 182.48130798339844
+Iteration 91 Loss: 182.41835021972656
+Iteration 92 Loss: 181.75950622558594
+Iteration 93 Loss: 177.30101013183594
+Iteration 94 Loss: 173.6536865234375
+Iteration 95 Loss: 177.24093627929688
+Iteration 96 Loss: 182.17247009277344
+Iteration 97 Loss: 180.3000030517578
+Iteration 98 Loss: 179.80068969726562
+Iteration 99 Loss: 182.2525177001953
+Iteration 100 Loss: 179.45416259765625
+Training Complete
+Now Testing:gurlitt-all-rnr-threads.txt
+
+Report for Rumour classification:-
+gurlitt-all-rnr-threads.txt accuracy:0.6666666666666666
+gurlitt-all-rnr-threads.txt macro_f1:0.6411483253588516
+gurlitt-all-rnr-threads.txt total tested:15
+
+Report for Stance classification:-
+correctly classified Stance labels:0
+Total available Stance labels:0
+correctly classified Stance labels for each class:0,0,0,0
+
+Training Set:{'ferguson-all-rnr-threads.txt', 'charliehebdo-all-rnr-threads.txt', 'sydneysiege-all-rnr-threads.txt', 'ebola-essien-all-rnr-threads.txt', 'putinmissing-all-rnr-threads.txt', 'ottawashooting-all-rnr-threads.txt', 'gurlitt-all-rnr-threads.txt', 'germanwings-crash-all-rnr-threads.txt'}
+count:3131,330,410,645
+weights:[0.0435185103458098, 0.4128983511900924, 0.3323328192505622, 0.21125031921353563]
+Iteration 1 Loss: 197.69766235351562
+Iteration 2 Loss: 189.9609832763672
+Iteration 3 Loss: 194.48348999023438
+Iteration 4 Loss: 196.3822784423828
+Iteration 5 Loss: 191.85382080078125
+Iteration 6 Loss: 189.8064727783203
+Iteration 7 Loss: 193.46197509765625
+Iteration 8 Loss: 188.5487823486328
+Iteration 9 Loss: 195.2561798095703
+Iteration 10 Loss: 193.89073181152344
+Iteration 11 Loss: 186.34149169921875
+Iteration 12 Loss: 190.88450622558594
+Iteration 13 Loss: 193.49229431152344
+Iteration 14 Loss: 186.7368927001953
+Iteration 15 Loss: 190.86203002929688
+Iteration 16 Loss: 193.85821533203125
+Iteration 17 Loss: 188.3701171875
+Iteration 18 Loss: 198.00094604492188
+Iteration 19 Loss: 191.24102783203125
+Iteration 20 Loss: 186.5460205078125
+Iteration 21 Loss: 182.4947052001953
+Iteration 22 Loss: 185.1035919189453
+Iteration 23 Loss: 184.23561096191406
+Iteration 24 Loss: 177.73764038085938
+Iteration 25 Loss: 182.8087615966797
+Iteration 26 Loss: 181.91986083984375
+Iteration 27 Loss: 184.98912048339844
+Iteration 28 Loss: 182.87893676757812
+Iteration 29 Loss: 181.349609375
+Iteration 30 Loss: 184.8218231201172
+Iteration 31 Loss: 175.91619873046875
+Iteration 32 Loss: 182.55712890625
+Iteration 33 Loss: 181.95306396484375
+Iteration 34 Loss: 178.07191467285156
+Iteration 35 Loss: 176.86671447753906
+Iteration 36 Loss: 178.1388397216797
+Iteration 37 Loss: 177.8480224609375
+Iteration 38 Loss: 179.3381805419922
+Iteration 39 Loss: 178.22503662109375
+Iteration 40 Loss: 179.951416015625
+Iteration 41 Loss: 179.95944213867188
+Iteration 42 Loss: 182.19296264648438
+Iteration 43 Loss: 175.60568237304688
+Iteration 44 Loss: 174.72760009765625
+Iteration 45 Loss: 186.95350646972656
+Iteration 46 Loss: 179.8076171875
+Iteration 47 Loss: 180.35191345214844
+Iteration 48 Loss: 180.9650421142578
+Iteration 49 Loss: 175.73709106445312
+Iteration 50 Loss: 175.6769561767578
+Iteration 51 Loss: 178.83261108398438
+Iteration 52 Loss: 174.03688049316406
+Iteration 53 Loss: 181.3047332763672
+Iteration 54 Loss: 179.0699462890625
+Iteration 55 Loss: 177.1473388671875
+Iteration 56 Loss: 177.70164489746094
+Iteration 57 Loss: 179.4334259033203
+Iteration 58 Loss: 176.74378967285156
+Iteration 59 Loss: 173.07540893554688
+Iteration 60 Loss: 173.86630249023438
+Iteration 61 Loss: 177.4175262451172
+Iteration 62 Loss: 173.68882751464844
+Iteration 63 Loss: 175.58700561523438
+Iteration 64 Loss: 181.46365356445312
+Iteration 65 Loss: 176.07029724121094
+Iteration 66 Loss: 179.343505859375
+Iteration 67 Loss: 176.1434326171875
+Iteration 68 Loss: 176.293212890625
+Iteration 69 Loss: 177.29713439941406
+Iteration 70 Loss: 172.9244842529297
+Iteration 71 Loss: 176.9731903076172
+Iteration 72 Loss: 171.50343322753906
+Iteration 73 Loss: 178.2422637939453
+Iteration 74 Loss: 175.9095916748047
+Iteration 75 Loss: 184.0895538330078
+Iteration 76 Loss: 169.98753356933594
+Iteration 77 Loss: 179.57489013671875
+Iteration 78 Loss: 173.36900329589844
+Iteration 79 Loss: 178.05450439453125
+Iteration 80 Loss: 174.86183166503906
+Iteration 81 Loss: 182.1656036376953
+Iteration 82 Loss: 174.82110595703125
+Iteration 83 Loss: 173.99427795410156
+Iteration 84 Loss: 178.0205078125
+Iteration 85 Loss: 174.63525390625
+Iteration 86 Loss: 169.1094207763672
+Iteration 87 Loss: 173.01454162597656
+Iteration 88 Loss: 173.047607421875
+Iteration 89 Loss: 176.080322265625
+Iteration 90 Loss: 169.76690673828125
+Iteration 91 Loss: 175.0558624267578
+Iteration 92 Loss: 171.2118377685547
+Iteration 93 Loss: 172.36643981933594
+Iteration 94 Loss: 174.53579711914062
+Iteration 95 Loss: 170.1485595703125
+Iteration 96 Loss: 176.25155639648438
+Iteration 97 Loss: 176.25680541992188
+Iteration 98 Loss: 172.10430908203125
+Iteration 99 Loss: 168.94985961914062
+Iteration 100 Loss: 174.09024047851562
+Training Complete
+Now Testing:prince-toronto-all-rnr-threads.txt
+
+Report for Rumour classification:-
+prince-toronto-all-rnr-threads.txt accuracy:0.15037593984962405
+prince-toronto-all-rnr-threads.txt macro_f1:0.13452346674344948
+prince-toronto-all-rnr-threads.txt total tested:133
+
+Report for Stance classification:-
+correctly classified Stance labels:41
+Total available Stance labels:91
+correctly classified Stance labels for each class:28,0,10,3
+prince-toronto-all-rnr-threads.txt accuracy_stance:0.45054945054945056
+prince-toronto-all-rnr-threads.txt macro_stance_f1:0.3263400320423516
+
+Training Set:{'ferguson-all-rnr-threads.txt', 'charliehebdo-all-rnr-threads.txt', 'sydneysiege-all-rnr-threads.txt', 'prince-toronto-all-rnr-threads.txt', 'ebola-essien-all-rnr-threads.txt', 'putinmissing-all-rnr-threads.txt', 'gurlitt-all-rnr-threads.txt', 'germanwings-crash-all-rnr-threads.txt'}
+count:2632,260,339,549
+weights:[0.042227482930034525, 0.42747205796865717, 0.3278546757281736, 0.20244578337313454]
+Iteration 1 Loss: 166.05795288085938
+Iteration 2 Loss: 170.05711364746094
+Iteration 3 Loss: 168.6303253173828
+Iteration 4 Loss: 167.7658233642578
+Iteration 5 Loss: 165.0104217529297
+Iteration 6 Loss: 162.43014526367188
+Iteration 7 Loss: 168.30929565429688
+Iteration 8 Loss: 166.64369201660156
+Iteration 9 Loss: 168.3276824951172
+Iteration 10 Loss: 164.36093139648438
+Iteration 11 Loss: 165.4951934814453
+Iteration 12 Loss: 163.1778564453125
+Iteration 13 Loss: 169.08924865722656
+Iteration 14 Loss: 171.7085723876953
+Iteration 15 Loss: 162.1092529296875
+Iteration 16 Loss: 164.45120239257812
+Iteration 17 Loss: 164.15530395507812
+Iteration 18 Loss: 164.0906219482422
+Iteration 19 Loss: 167.68707275390625
+Iteration 20 Loss: 166.0371551513672
+Iteration 21 Loss: 160.36489868164062
+Iteration 22 Loss: 162.48348999023438
+Iteration 23 Loss: 165.5330352783203
+Iteration 24 Loss: 159.2286834716797
+Iteration 25 Loss: 165.21827697753906
+Iteration 26 Loss: 160.06375122070312
+Iteration 27 Loss: 161.37779235839844
+Iteration 28 Loss: 165.08169555664062
+Iteration 29 Loss: 158.93359375
+Iteration 30 Loss: 163.89956665039062
+Iteration 31 Loss: 166.3355255126953
+Iteration 32 Loss: 163.27578735351562
+Iteration 33 Loss: 163.66725158691406
+Iteration 34 Loss: 159.80337524414062
+Iteration 35 Loss: 159.8780059814453
+Iteration 36 Loss: 157.79238891601562
+Iteration 37 Loss: 150.85986328125
+Iteration 38 Loss: 158.58248901367188
+Iteration 39 Loss: 156.5138702392578
+Iteration 40 Loss: 161.39418029785156
+Iteration 41 Loss: 157.53329467773438
+Iteration 42 Loss: 159.69285583496094
+Iteration 43 Loss: 153.66506958007812
+Iteration 44 Loss: 152.1805419921875
+Iteration 45 Loss: 149.43882751464844
+Iteration 46 Loss: 156.72682189941406
+Iteration 47 Loss: 158.0030517578125
+Iteration 48 Loss: 162.2784881591797
+Iteration 49 Loss: 157.85275268554688
+Iteration 50 Loss: 155.93231201171875
+Iteration 51 Loss: 156.93026733398438
+Iteration 52 Loss: 157.9340057373047
+Iteration 53 Loss: 150.90933227539062
+Iteration 54 Loss: 150.00514221191406
+Iteration 55 Loss: 155.77960205078125
+Iteration 56 Loss: 155.81396484375
+Iteration 57 Loss: 152.80641174316406
+Iteration 58 Loss: 159.65406799316406
+Iteration 59 Loss: 158.08724975585938
+Iteration 60 Loss: 163.05332946777344
+Iteration 61 Loss: 164.17987060546875
+Iteration 62 Loss: 152.71920776367188
+Iteration 63 Loss: 153.9063720703125
+Iteration 64 Loss: 150.6660919189453
+Iteration 65 Loss: 150.52920532226562
+Iteration 66 Loss: 152.11318969726562
+Iteration 67 Loss: 154.8312225341797
+Iteration 68 Loss: 153.31361389160156
+Iteration 69 Loss: 154.79083251953125
+Iteration 70 Loss: 149.22572326660156
+Iteration 71 Loss: 151.2490234375
+Iteration 72 Loss: 150.91062927246094
+Iteration 73 Loss: 155.55499267578125
+Iteration 74 Loss: 156.1299285888672
+Iteration 75 Loss: 152.52200317382812
+Iteration 76 Loss: 156.4076385498047
+Iteration 77 Loss: 154.1531982421875
+Iteration 78 Loss: 152.3147430419922
+Iteration 79 Loss: 153.08905029296875
+Iteration 80 Loss: 150.46426391601562
+Iteration 81 Loss: 156.11590576171875
+Iteration 82 Loss: 155.53768920898438
+Iteration 83 Loss: 152.20155334472656
+Iteration 84 Loss: 151.48731994628906
+Iteration 85 Loss: 152.1680145263672
+Iteration 86 Loss: 154.81056213378906
+Iteration 87 Loss: 155.7774200439453
+Iteration 88 Loss: 154.6802520751953
+Iteration 89 Loss: 150.51507568359375
+Iteration 90 Loss: 151.44058227539062
+Iteration 91 Loss: 157.5047607421875
+Iteration 92 Loss: 153.9556427001953
+Iteration 93 Loss: 152.48526000976562
+Iteration 94 Loss: 151.52780151367188
+Iteration 95 Loss: 153.92552185058594
+Iteration 96 Loss: 153.11550903320312
+Iteration 97 Loss: 147.39999389648438
+Iteration 98 Loss: 153.5204620361328
+Iteration 99 Loss: 147.42630004882812
+Iteration 100 Loss: 145.44137573242188
+Training Complete
+Now Testing:ottawashooting-all-rnr-threads.txt
+
+Report for Rumour classification:-
+ottawashooting-all-rnr-threads.txt accuracy:0.5866510538641686
+ottawashooting-all-rnr-threads.txt macro_f1:0.5816902952403815
+ottawashooting-all-rnr-threads.txt total tested:854
+
+Report for Stance classification:-
+correctly classified Stance labels:247
+Total available Stance labels:827
+correctly classified Stance labels for each class:117,0,62,68
+ottawashooting-all-rnr-threads.txt accuracy_stance:0.29866989117291415
+ottawashooting-all-rnr-threads.txt macro_stance_f1:0.24958563824235466
+
+Training Set:{'ferguson-all-rnr-threads.txt', 'charliehebdo-all-rnr-threads.txt', 'sydneysiege-all-rnr-threads.txt', 'prince-toronto-all-rnr-threads.txt', 'ebola-essien-all-rnr-threads.txt', 'ottawashooting-all-rnr-threads.txt', 'gurlitt-all-rnr-threads.txt', 'germanwings-crash-all-rnr-threads.txt'}
+count:3161,331,416,646
+weights:[0.043399772401188655, 0.41446127057449345, 0.3297756744234551, 0.21236328260086274]
+Iteration 1 Loss: 193.6495819091797
+Iteration 2 Loss: 188.49363708496094
+Iteration 3 Loss: 197.68389892578125
+Iteration 4 Loss: 192.59426879882812
+Iteration 5 Loss: 194.82440185546875
+Iteration 6 Loss: 190.115234375
+Iteration 7 Loss: 191.58628845214844
+Iteration 8 Loss: 190.52230834960938
+Iteration 9 Loss: 194.29176330566406
+Iteration 10 Loss: 187.00299072265625
+Iteration 11 Loss: 194.96954345703125
+Iteration 12 Loss: 188.60910034179688
+Iteration 13 Loss: 190.7216339111328
+Iteration 14 Loss: 187.13987731933594
+Iteration 15 Loss: 189.74905395507812
+Iteration 16 Loss: 187.11111450195312
+Iteration 17 Loss: 181.07699584960938
+Iteration 18 Loss: 179.5684814453125
+Iteration 19 Loss: 183.19944763183594
+Iteration 20 Loss: 187.9840545654297
+Iteration 21 Loss: 184.65562438964844
+Iteration 22 Loss: 180.10067749023438
+Iteration 23 Loss: 183.87181091308594
+Iteration 24 Loss: 178.24923706054688
+Iteration 25 Loss: 180.25192260742188
+Iteration 26 Loss: 181.21351623535156
+Iteration 27 Loss: 182.40660095214844
+Iteration 28 Loss: 184.05284118652344
+Iteration 29 Loss: 182.92581176757812
+Iteration 30 Loss: 182.56332397460938
+Iteration 31 Loss: 179.05416870117188
+Iteration 32 Loss: 178.3272705078125
+Iteration 33 Loss: 176.24949645996094
+Iteration 34 Loss: 183.34715270996094
+Iteration 35 Loss: 183.79635620117188
+Iteration 36 Loss: 173.67733764648438
+Iteration 37 Loss: 183.29925537109375
+Iteration 38 Loss: 177.02685546875
+Iteration 39 Loss: 170.10748291015625
+Iteration 40 Loss: 185.8058319091797
+Iteration 41 Loss: 176.75201416015625
+Iteration 42 Loss: 183.55137634277344
+Iteration 43 Loss: 170.402587890625
+Iteration 44 Loss: 183.9855499267578
+Iteration 45 Loss: 174.8386993408203
+Iteration 46 Loss: 178.4138641357422
+Iteration 47 Loss: 175.03733825683594
+Iteration 48 Loss: 175.98605346679688
+Iteration 49 Loss: 179.56924438476562
+Iteration 50 Loss: 182.87271118164062
+Iteration 51 Loss: 175.5792236328125
+Iteration 52 Loss: 172.66299438476562
+Iteration 53 Loss: 182.02584838867188
+Iteration 54 Loss: 177.71112060546875
+Iteration 55 Loss: 180.75294494628906
+Iteration 56 Loss: 171.1743621826172
+Iteration 57 Loss: 173.549072265625
+Iteration 58 Loss: 178.26388549804688
+Iteration 59 Loss: 181.61764526367188
+Iteration 60 Loss: 176.36119079589844
+Iteration 61 Loss: 178.43836975097656
+Iteration 62 Loss: 174.5631866455078
+Iteration 63 Loss: 184.1527557373047
+Iteration 64 Loss: 177.34075927734375
+Iteration 65 Loss: 175.45701599121094
+Iteration 66 Loss: 175.78164672851562
+Iteration 67 Loss: 178.2449493408203
+Iteration 68 Loss: 178.11880493164062
+Iteration 69 Loss: 175.35289001464844
+Iteration 70 Loss: 179.5181427001953
+Iteration 71 Loss: 174.538330078125
+Iteration 72 Loss: 178.02767944335938
+Iteration 73 Loss: 176.03221130371094
+Iteration 74 Loss: 174.0030517578125
+Iteration 75 Loss: 172.99725341796875
+Iteration 76 Loss: 177.91387939453125
+Iteration 77 Loss: 181.14804077148438
+Iteration 78 Loss: 179.10986328125
+Iteration 79 Loss: 179.90724182128906
+Iteration 80 Loss: 172.7615509033203
+Iteration 81 Loss: 173.06488037109375
+Iteration 82 Loss: 170.20562744140625
+Iteration 83 Loss: 172.95143127441406
+Iteration 84 Loss: 172.3190155029297
+Iteration 85 Loss: 175.95352172851562
+Iteration 86 Loss: 173.04530334472656
+Iteration 87 Loss: 175.4375457763672
+Iteration 88 Loss: 176.5320281982422
+Iteration 89 Loss: 178.4674072265625
+Iteration 90 Loss: 179.8424835205078
+Iteration 91 Loss: 176.81431579589844
+Iteration 92 Loss: 175.65817260742188
+Iteration 93 Loss: 172.6588592529297
+Iteration 94 Loss: 176.69973754882812
+Iteration 95 Loss: 174.24197387695312
+Iteration 96 Loss: 175.5914306640625
+Iteration 97 Loss: 175.95431518554688
+Iteration 98 Loss: 168.19558715820312
+Iteration 99 Loss: 176.6998748779297
+Iteration 100 Loss: 178.58816528320312
+Training Complete
+Now Testing:putinmissing-all-rnr-threads.txt
+
+Report for Rumour classification:-
+putinmissing-all-rnr-threads.txt accuracy:0.5407407407407407
+putinmissing-all-rnr-threads.txt macro_f1:0.5185227795674183
+putinmissing-all-rnr-threads.txt total tested:135
+
+Report for Stance classification:-
+correctly classified Stance labels:26
+Total available Stance labels:53
+correctly classified Stance labels for each class:22,0,4,0
+putinmissing-all-rnr-threads.txt accuracy_stance:0.49056603773584906
+putinmissing-all-rnr-threads.txt macro_stance_f1:0.28182616330114135
+
+Training Set:{'charliehebdo-all-rnr-threads.txt', 'sydneysiege-all-rnr-threads.txt', 'prince-toronto-all-rnr-threads.txt', 'ebola-essien-all-rnr-threads.txt', 'putinmissing-all-rnr-threads.txt', 'ottawashooting-all-rnr-threads.txt', 'gurlitt-all-rnr-threads.txt', 'germanwings-crash-all-rnr-threads.txt'}
+count:2439,250,313,513
+weights:[0.04291344855089552, 0.41866360406253667, 0.334395849890205, 0.20402709749636289]
+Iteration 1 Loss: 161.95985412597656
+Iteration 2 Loss: 157.36834716796875
+Iteration 3 Loss: 164.29161071777344
+Iteration 4 Loss: 162.3806610107422
+Iteration 5 Loss: 163.61341857910156
+Iteration 6 Loss: 160.56796264648438
+Iteration 7 Loss: 165.11830139160156
+Iteration 8 Loss: 161.55857849121094
+Iteration 9 Loss: 155.7622528076172
+Iteration 10 Loss: 153.82208251953125
+Iteration 11 Loss: 165.4191131591797
+Iteration 12 Loss: 156.12008666992188
+Iteration 13 Loss: 157.2165069580078
+Iteration 14 Loss: 153.25201416015625
+Iteration 15 Loss: 155.81149291992188
+Iteration 16 Loss: 155.62649536132812
+Iteration 17 Loss: 153.11517333984375
+Iteration 18 Loss: 152.69546508789062
+Iteration 19 Loss: 158.6011962890625
+Iteration 20 Loss: 161.9054718017578
+Iteration 21 Loss: 159.3886260986328
+Iteration 22 Loss: 159.59176635742188
+Iteration 23 Loss: 154.89865112304688
+Iteration 24 Loss: 152.98167419433594
+Iteration 25 Loss: 160.26788330078125
+Iteration 26 Loss: 156.47251892089844
+Iteration 27 Loss: 151.77493286132812
+Iteration 28 Loss: 151.7005157470703
+Iteration 29 Loss: 153.776123046875
+Iteration 30 Loss: 150.22100830078125
+Iteration 31 Loss: 154.42359924316406
+Iteration 32 Loss: 152.27749633789062
+Iteration 33 Loss: 148.94984436035156
+Iteration 34 Loss: 152.52947998046875
+Iteration 35 Loss: 152.41819763183594
+Iteration 36 Loss: 146.83651733398438
+Iteration 37 Loss: 151.4698486328125
+Iteration 38 Loss: 150.69253540039062
+Iteration 39 Loss: 154.26304626464844
+Iteration 40 Loss: 148.2435760498047
+Iteration 41 Loss: 152.2538299560547
+Iteration 42 Loss: 153.48287963867188
+Iteration 43 Loss: 149.39845275878906
+Iteration 44 Loss: 152.40419006347656
+Iteration 45 Loss: 152.75022888183594
+Iteration 46 Loss: 159.089599609375
+Iteration 47 Loss: 163.4433135986328
+Iteration 48 Loss: 160.26429748535156
+Iteration 49 Loss: 152.04815673828125
+Iteration 50 Loss: 152.2929229736328
+Iteration 51 Loss: 147.39056396484375
+Iteration 52 Loss: 150.97824096679688
+Iteration 53 Loss: 148.69769287109375
+Iteration 54 Loss: 148.6178436279297
+Iteration 55 Loss: 150.23211669921875
+Iteration 56 Loss: 148.81927490234375
+Iteration 57 Loss: 146.3074951171875
+Iteration 58 Loss: 155.62014770507812
+Iteration 59 Loss: 147.7332763671875
+Iteration 60 Loss: 150.8105926513672
+Iteration 61 Loss: 153.23443603515625
+Iteration 62 Loss: 146.6715545654297
+Iteration 63 Loss: 154.04930114746094
+Iteration 64 Loss: 147.61061096191406
+Iteration 65 Loss: 149.14248657226562
+Iteration 66 Loss: 151.4265899658203
+Iteration 67 Loss: 152.7077178955078
+Iteration 68 Loss: 151.26405334472656
+Iteration 69 Loss: 148.494384765625
+Iteration 70 Loss: 148.57369995117188
+Iteration 71 Loss: 151.87161254882812
+Iteration 72 Loss: 145.3794403076172
+Iteration 73 Loss: 147.17408752441406
+Iteration 74 Loss: 146.7930145263672
+Iteration 75 Loss: 155.60992431640625
+Iteration 76 Loss: 151.92724609375
+Iteration 77 Loss: 148.86276245117188
+Iteration 78 Loss: 148.72714233398438
+Iteration 79 Loss: 149.45773315429688
+Iteration 80 Loss: 147.50611877441406
+Iteration 81 Loss: 147.50592041015625
+Iteration 82 Loss: 149.97454833984375
+Iteration 83 Loss: 150.124267578125
+Iteration 84 Loss: 146.79579162597656
+Iteration 85 Loss: 148.0226593017578
+Iteration 86 Loss: 151.0968017578125
+Iteration 87 Loss: 146.79495239257812
+Iteration 88 Loss: 151.03585815429688
+Iteration 89 Loss: 146.81805419921875
+Iteration 90 Loss: 152.6084442138672
+Iteration 91 Loss: 146.5996551513672
+Iteration 92 Loss: 148.3987274169922
+Iteration 93 Loss: 146.65036010742188
+Iteration 94 Loss: 149.6693878173828
+Iteration 95 Loss: 152.13819885253906
+Iteration 96 Loss: 145.83895874023438
+Iteration 97 Loss: 147.01943969726562
+Iteration 98 Loss: 146.6952362060547
+Iteration 99 Loss: 151.51242065429688
+Iteration 100 Loss: 145.90184020996094
+Training Complete
+Now Testing:ferguson-all-rnr-threads.txt
+
+Report for Rumour classification:-
+ferguson-all-rnr-threads.txt accuracy:0.5307539682539683
+ferguson-all-rnr-threads.txt macro_f1:0.49534651107406535
+ferguson-all-rnr-threads.txt total tested:1008
+
+Report for Stance classification:-
+correctly classified Stance labels:546
+Total available Stance labels:1092
+correctly classified Stance labels for each class:441,0,73,32
+ferguson-all-rnr-threads.txt accuracy_stance:0.5
+ferguson-all-rnr-threads.txt macro_stance_f1:0.3012602829566989
+

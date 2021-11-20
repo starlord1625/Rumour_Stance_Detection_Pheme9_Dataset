@@ -10,7 +10,7 @@ import torch
 class TreeLSTM(torch.nn.Module):
 	'''PyTorch TreeLSTM model that implements efficient batching.
 	'''
-	def __init__(self, in_features, out_features, hidden_units):
+	def __init__(self, in_features, out_features, hidden_units,hidden_stance_units, out_stance_features,dropout=0.1):
 		'''TreeLSTM class initializer
 
 		Takes in int sizes of in_features and out_features and sets up model Linear network layers.
@@ -32,6 +32,12 @@ class TreeLSTM(torch.nn.Module):
 		self.U_f = torch.nn.Linear((self.hidden_units//16) * self.out_features, (self.hidden_units//16) * self.out_features, bias=False)
 
 		self.feedforward = torch.nn.Linear((self.hidden_units//16) * self.out_features, self.out_features, bias=False)
+		self.stance_dense = torch.nn.Linear((self.hidden_units//16) * self.out_features, hidden_stance_units, bias=False)
+		self.stance_dense2 = torch.nn.Linear(hidden_stance_units, (self.hidden_units//16) * self.out_features, bias=False)
+		# self.stance_dense3 = torch.nn.Linear(1000, hidden_stance_units, bias=False)
+		self.layer_norm = torch.nn.LayerNorm(out_stance_features, eps=1e-6)
+		self.dropout = torch.nn.Dropout(dropout)
+		self.stance_feedforward = torch.nn.Linear((self.hidden_units//16) * self.out_features, out_stance_features, bias=False)
 
 		self.init_weights()
 
@@ -67,12 +73,22 @@ class TreeLSTM(torch.nn.Module):
 		for n in range(node_order.max() + 1):
 			# print(n)
 			self._run_lstm(n, h, c, features, node_order, adjacency_list, edge_order)
-
+		residual = h
 		h_root = self.feedforward(h[root_node, :])
+		h_stance = self.stance_dense(h)
+		h_stance = self.dropout(h_stance)
+		h_stance = self.stance_dense2(h_stance)
+		# h_stance = self.stance_dense3(h_stance)
+		h_stance = self.dropout(h_stance)
+		h_stance = h_stance + residual
+		h_stance = self.stance_feedforward(h_stance)
+		h_stance = self.dropout(h_stance)
+		h_stance = self.layer_norm(h_stance)
 
 		h_root = torch.nn.functional.softmax(h_root, dim = 1)
+		h_stance = torch.nn.functional.softmax(h_stance, dim=1)
 
-		return h, h_root, c
+		return h_stance, h_root, c
 
 	def _run_lstm(self, iteration, h, c, features, node_order, adjacency_list, edge_order):
 		'''Helper function to evaluate all tree nodes currently able to be evaluated.
