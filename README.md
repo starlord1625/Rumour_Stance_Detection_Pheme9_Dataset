@@ -147,7 +147,7 @@ tree = {
     }
 ```
 
-Here, f is the input feature vector for each node of the tree, l is the true label of the root of the tree stored as a 2-dimensional one-hot vector (dim-1: verified, dim-2: unverified), and c is the list of children of a node. and stance is the one-hot encode of stance-label:= [0, 0, 0, 0,]:- No stance ; [1, 0, 0, 0]:-comment ; [0, 1, 0, 0]:-deny ; [0, 0, 1, 0]:-support ; [0, 0, 0, 1]:-query
+Here, f is the input feature vector for each node of the tree, l is the true label of the root of the tree stored as a 2-dimensional one-hot vector (dim-1: verified, dim-2: unverified), and c is the list of children of a node. and stance is the class label:= 0:- No stance ; 1:-comment ; 2:-deny ; 3:-support ; 4:-query
 
 ### Training and Testing Tree-LSTM
 
@@ -160,9 +160,15 @@ $ python train-Tree-LSTM.py
 Configure the following input variables inside the code:
 
 - **tree_path**: Path to the folder containing generate trees (output_path of the last step).
+- **log_file**: Path of the file where the logs have to be done.
 - **IN_FEATURES**: Size of the input feature vectors
 - **NUM_ITERATIONS**: Number of iterations for training
 - **BATCH_SIZE**: Batch size for training
+- **HIDDEN_UNITS**: dimension for Tree-LSTM
+- **HIDDEN_STANCE_UNITS**: number of neurons in hidden layer while stance classification 
+- **DROP_OUT**: Drop out percentage used in drop-out layers in stance classifier
+- **ENTIRE_DATASET_WEIGHTS**: True:-use weights calculated over entire available dataset; False:-use weights calculated on Training set.
+- **weights**: weight vector for stance classification used in loss function
 - **test_set**: Disaster events on which you want to test.
 
 
