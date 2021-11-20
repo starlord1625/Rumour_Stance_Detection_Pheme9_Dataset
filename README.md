@@ -171,7 +171,3 @@ Configure the following input variables inside the code:
 - **weights**: weight vector for stance classification used in loss function
 - **test_set**: Disaster events on which you want to test.
 
-
-## VERISUMM
-
-Code coming up soon!!
