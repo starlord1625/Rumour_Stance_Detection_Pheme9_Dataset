@@ -46,6 +46,7 @@ OUT_STANCE_FEATURES = 4
 DROP_OUT = 0.1
 LEARNING_RATE = 0.001
 no_stance = 0
+ENTIRE_DATASET_WEIGHTS=True
 #weights = [0,0.1192,1.0,0.7981,0.511]
 #weights = [0.123,1.4,0.721,0.671]
 weights = [0.0436,0.4141,0.3305,0.2118]
@@ -119,6 +120,19 @@ for test_file in test_set:
 				weight_2 += 1
 			if val == 3:
 				weight_3 += 1
+	if(ENTIRE_DATASET_WEIGHTS):
+		for curr_tree in test_trees:
+			pre_stance = (curr_tree['stance']-1).type(torch.long)
+			for val in pre_stance:
+				if val == 0:
+					weight_0 += 1
+				if val == 1:
+					weight_1 += 1
+				if val == 2:
+					weight_2 += 1
+				if val == 3:
+					weight_3 += 1
+	
 	print(weight_0,weight_1,weight_2,weight_3)
 	k=1 / (1/weight_0 + 1/weight_1 + 1/weight_2 + 1/weight_3)
 	weights = [k/weight_0,k/weight_1,k/weight_2,k/weight_3]
