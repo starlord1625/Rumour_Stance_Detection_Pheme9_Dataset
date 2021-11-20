@@ -49,7 +49,7 @@ no_stance = 0
 ENTIRE_DATASET_WEIGHTS=True
 #weights = [0,0.1192,1.0,0.7981,0.511]
 #weights = [0.123,1.4,0.721,0.671]
-weights = [0.0436,0.4141,0.3305,0.2118]
+#weights = [0.0436,0.4141,0.3305,0.2118]
 #weights = [0.128,1.3,0.848,0.595]
 
 files = os.listdir(tree_path)
