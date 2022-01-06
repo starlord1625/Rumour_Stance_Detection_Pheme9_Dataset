@@ -1,4 +1,4 @@
-# Verified Summarization
+# Verified Summarization-paper
 
 ## Initial Steps
 - use path according to the system on which the program runs
